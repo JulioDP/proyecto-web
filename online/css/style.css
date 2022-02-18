@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    
+}
+
+nav {
+    background-color: black;
+    padding: 15px;
+    margin: 0px;
+}
+ header nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    
+}
+li{
+    list-style: none;
+}
+
+.navegacion{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+h1{
+    font-size: 64px;
+    margin: 0px 0px 5px 0px ;
+}
+h2{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+.navegar{
+    color: black;
+}
+
+.navegacion2{
+    display: flex;
+    justify-content: center;
+}
+.comprar{
+    width: 90px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 35%;
+    background-color: #20daca;
+    margin: 20px;
+    text-align: center;
+    list-style: none;
+
+
+}
+
+.nav2{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: #291900;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin: 60px 0;
+    text-align: center;
+    font-size: 15px;
+}
+.detalles{
+    width: 150px;
+    height: 200px;
+    margin-top: 25px;
+    padding-left: 25px;
+}
+.contenedor-detalles{
+   display: flex;
+   justify-content: space-around;
+}
+.contenedor-phone{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+main{
+    margin-top: 90px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detalle-producto{
+    margin-top: 35px ;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900px;
+}
+.comprar-phone{
+    width: 100px;
+    height: 20px;
+    background-color: #208dd9;
+    color: #fff2ff;
+    text-decoration: none;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 25%;
+}
+.h2-phone{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
